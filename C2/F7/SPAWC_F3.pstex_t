@@ -1,0 +1,19 @@
+\begin{picture}(0,0)%
+\includegraphics{SPAWC_F3.pstex}%
+\end{picture}%
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(5106,5143)(1611,-5204)
+\put(2405,-4081){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}3) exact calculation of $P_{\I}$ for TVC,}%
+}}}
+\put(2601,-4424){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max} = 1000$ Hz. without GI}%
+}}}
+\put(4141,-5146){\makebox(0,0)[b]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$\log_2(N_{\mathrm{FFT}})$}%
+}}}
+\end{picture}

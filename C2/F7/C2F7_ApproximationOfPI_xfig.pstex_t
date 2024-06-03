@@ -1,0 +1,25 @@
+\begin{picture}(0,0)%
+\includegraphics{C2F7_ApproximationOfPI_xfig.pstex}%
+\end{picture}%
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(4678,8424)(1623,-9835)
+\put(3331,-9781){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$\log_2(N_{\FFT})$}%
+}}}
+\put(3061,-9136){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max}=1000$ Hz, SGL}%
+}}}
+\put(3286,-8341){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}2) Exact calculation of $P_{\I}$ for TIC,}%
+}}}
+\put(3061,-8926){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}1) Exact calculation of $P_{\I}$ for TVC,}%
+}}}
+\put(2881,-2746){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max} = 1000$ Hz. without GI}%
+}}}
+\put(2881,-2536){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}3) exact calculation of $P_{\I}$ for TVC,}%
+}}}
+\end{picture}

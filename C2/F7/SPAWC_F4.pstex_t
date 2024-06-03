@@ -1,0 +1,21 @@
+\begin{picture}(0,0)%
+\includegraphics{SPAWC_F4.pstex}%
+\end{picture}%
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(5111,5260)(1611,-9430)
+\put(3485,-9372){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$\log_2(N_{\FFT})$}%
+}}}
+\put(3190,-8669){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max}=1000$ Hz, SGL}%
+}}}
+\put(3434,-7802){\makebox(0,0)[lb]{\smash{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}2) Exact calculation of $P_{\I}$ for TIC,}%
+}}}
+\put(3190,-8441){\makebox(0,0)[lb]{\smash{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}1) Exact calculation of $P_{\I}$ for TVC,}%
+}}}
+\end{picture}

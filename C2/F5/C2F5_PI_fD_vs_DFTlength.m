@@ -1,0 +1,79 @@
+
+%========================================
+% Chapter 2, figure 5
+%========================================
+
+load P_I_fD_vs_DFT.am -ascii;
+
+%Run matlab file Interference_power_WGL.m for N_FFT = 16:16:4096
+
+load P_I_fD_vs_FFT.am -ascii;
+%Run matlab file Interference_power_WGL.m for index = 4:12
+
+
+P_I = P_I_fD_vs_FFT;
+
+P = P_I_fD_vs_DFT;
+
+NFFT = 16:16:4096;
+index = 4:12;
+plot(index, 10*log10(P_I(1,:)),'rh','MarkerSize',5);
+hold on;
+plot(index, 10*log10(P_I(2,:)),'ko','MarkerSize',5);
+plot(index, 10*log10(P_I(3,:)),'bx','MarkerSize',5);
+
+plot(index, 10*log10(P_I(5,:)),'r*','MarkerSize',5);
+
+plot(index, 10*log10(P_I(7,:)),'kd','MarkerSize',5);
+
+plot(index, 10*log10(P_I(9,:)),'bv','MarkerSize',5);
+
+
+plot(index, 10*log10(P_I(11,:)),'r+','MarkerSize',5);
+
+plot(index, 10*log10(P_I(13,:)),'ks','MarkerSize',5);
+
+plot(index, 10*log10(P_I(15,:)),'b^','MarkerSize',5);
+
+plot(index, 10*log10(P_I(17,:)),'r<','MarkerSize',5);
+
+plot(index, 10*log10(P_I(19,:)),'k>','MarkerSize',5);
+
+plot(index, 10*log10(P_I(21,:)),'bp','MarkerSize',5);
+
+ylabel('Interference power in dB','FontSize',12);
+xlabel('log_2(N_{FFT})','FontSize',12);
+legend('Time-invariant channel','f_{D,max} = 50 Hz','f_{D,max} = 100 "-"', 'f_{D,max} = 200 "-"','f_{D,max} = 300 "-"','f_{D,max} = 400 "-"', 'f_{D,max} = 500 "-"','f_{D,max} = 600 "-"', 'f_{D,max} = 700 "-"','f_{D,max} = 800 "-"','f_{D,max} = 900 "-"','f_{D,max} = 1000 "-"',0);
+
+title('Without guard interval','FontSize',12);
+plot(log2(NFFT),10*log10(P(1,:)),'r');
+
+plot(log2(NFFT),10*log10(P(2,:)),'k');
+plot(log2(NFFT),10*log10(P(3,:)),'b');
+
+plot(log2(NFFT),10*log10(P(5,:)),'r');
+
+plot(log2(NFFT),10*log10(P(7,:)),'k');
+
+plot(log2(NFFT),10*log10(P(9,:)),'b');
+
+
+plot(log2(NFFT),10*log10(P(11,:)),'r');
+
+plot(log2(NFFT),10*log10(P(13,:)),'k');
+
+plot(log2(NFFT),10*log10(P(15,:)),'b');
+
+plot(log2(NFFT),10*log10(P(17,:)),'r');
+
+plot(log2(NFFT),10*log10(P(19,:)),'k');
+
+plot(log2(NFFT),10*log10(P(21,:)),'b');
+
+
+%%daten = [log2(NFFT)', 10*log10(P(1,:))', 10*log10(P(2,:))', 10*log10(P(3,:))',10*log10(P(5,:))', 10*log10(P(7,:))', 10*log10(P(9,:))', 10*log10(P(11,:))', 10*log10(P(13,:))', 10*log10(P(15,:))', 10*log10(P(17,:))', 10*log10(P(19,:))', 10*log10(P(21,:))']; 
+
+daten = [log2(NFFT)', 10*log10(P(1,:))', 10*log10(P(2,:))',10*log10(P(5,:))', 10*log10(P(9,:))', 10*log10(P(13,:))', 10*log10(P(17,:))', 10*log10(P(21,:))']; 
+
+
+save C2F5_PI_fD_vs_DFTlength.dat daten -ascii;

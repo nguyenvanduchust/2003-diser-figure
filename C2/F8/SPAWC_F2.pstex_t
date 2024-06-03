@@ -1,0 +1,23 @@
+\begin{picture}(0,0)%
+\includegraphics{SPAWC_F2.pstex}%
+\end{picture}%
+\setlength{\unitlength}{4144sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(3600,3600)(1801,-7711)
+\put(2161,-5506){\makebox(0,0)[lb]{\smash{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}3) Exact calculation of $P_{\I}$ for TVC, }%
+}}}
+\put(2296,-5686){\makebox(0,0)[lb]{\smash{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max} =1000 $ Hz, }%
+}}}
+\put(3511,-6271){\makebox(0,0)[lb]{\smash{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}2) Approx. calculation of $P_{\I}$}%
+}}}
+\put(2611,-6991){\makebox(0,0)[lb]{\smash{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}1) Exact calculation of $P_{\I}$ for TVC with }%
+}}}
+\put(2701,-7171){\makebox(0,0)[lb]{\smash{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}$f_{\D,\max} =1000 $ Hz, SGL}%
+}}}
+\end{picture}

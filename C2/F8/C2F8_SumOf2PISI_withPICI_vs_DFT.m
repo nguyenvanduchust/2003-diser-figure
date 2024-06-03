@@ -1,0 +1,43 @@
+clear;
+
+load  TwoTimesOfPISI.am -ascii;
+
+TwoTimesOfPISI = TwoTimesOfPISI(2,:);
+
+load P_ICI_SGL_fd1000Hz_vs_DFTLength.am -ascii;
+
+P_ICI_SGL_x = P_ICI_SGL_fd1000Hz_vs_DFTLength(1,:);
+P_ICI_SGL = P_ICI_SGL_fd1000Hz_vs_DFTLength(2,:);
+
+load P_ISI_ICI2_vs_DFTLength.am -ascii;
+
+P_ISI_ICI2 = P_ISI_ICI2_vs_DFTLength(2,:);
+
+load Interfer_power_WGL_fd1000Hz_vs_DFTLength.am -ascii;
+Interfer_power_WGL_fd1000Hz = Interfer_power_WGL_fd1000Hz_vs_DFTLength(2,:);
+
+%P_Sum = P_ICI_SGL + P_ISI_ICI2;
+P_Sum = P_ICI_SGL + TwoTimesOfPISI;
+
+
+index = P_ICI_SGL_x;
+
+plot(log2(index), 10*log10(P_ICI_SGL),'b-.');
+hold on;
+plot(log2(index), 10*log10(P_ISI_ICI2),'b--');
+plot(log2(index), 10*log10(Interfer_power_WGL_fd1000Hz),'r-');
+plot(log2(index), 10*log10(P_Sum),'k:');
+
+ylabel('Interference power in dB','FontSize',14);
+xlabel('log_2(N_{FFT})','FontSize',14);
+%legend('1) Exact calculation of P_I for TVC with f_{D,max}=1000, SGL','2) Approximation of P_I for TIC, without GI', '3) Exact calculation of P_I for TVC with f_{D,max}=1000, without GI','4) Sum of (1) and (2)',0);
+
+
+
+hold off;
+%grid on;
+%zoom on;
+
+daten = [log2(index)', 10*log10(P_ICI_SGL)', 10*log10(P_ISI_ICI2)',10*log10(Interfer_power_WGL_fd1000Hz)', 10*log10(P_Sum)'];
+ 
+save C2F8_SumOf2PISI_withPICI_vs_DFT.dat daten -ascii;

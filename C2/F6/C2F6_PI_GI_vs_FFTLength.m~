@@ -1,0 +1,46 @@
+
+
+load P_I_GI_vs_DFT.am -ascii;
+
+P = P_I_GI_vs_DFT;
+
+
+load P_I_GI_vs_FFT.am -ascii;
+
+
+P_I = P_I_GI_vs_FFT;
+index = 4:12;
+
+plot(index, 10*log10(P_I(1,:)),'rh','MarkerSize',5);
+hold on;
+plot(index, 10*log10(P_I(2,:)),'ko','MarkerSize',5);
+plot(index, 10*log10(P_I(3,:)),'bx','MarkerSize',5);
+plot(index, 10*log10(P_I(4,:)),'r+','MarkerSize',5);
+plot(index, 10*log10(P_I(5,:)),'k*','MarkerSize',5);
+plot(index, 10*log10(P_I(6,:)),'bs','MarkerSize',5);
+plot(index, 10*log10(P_I(7,:)),'rd','MarkerSize',5);
+plot(index, 10*log10(P_I(8,:)),'k^','MarkerSize',5);
+plot(index, 10*log10(P_I(9,:)),'bv','MarkerSize',5);
+
+
+
+ylabel('Interference power in dB','FontSize',12);
+xlabel('log_2(N_{FFT})','FontSize',12);
+legend('Without GI','G=1 sample','G=2 "-"', 'G=3 "-"','G=4 "-"','G=5 "-"', 'G=6 "-"','G=7 "-"', 'G=8 "-": SGIL',0);
+
+N_FFT = 16:16:4096;
+
+
+plot(log2(N_FFT), 10*log10(P(1,:)),'r-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(2,:)),'k-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(3,:)),'b-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(4,:)),'r-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(5,:)),'k-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(6,:)),'b-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(7,:)),'r-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(8,:)),'k-','MarkerSize',5);
+plot(log2(N_FFT), 10*log10(P(9,:)),'b-','MarkerSize',5);
+
+daten = [log2(N_FFT)', 10*log10(P(1,:))', 10*log10(P(2,:))', 10*log10(P(3,:))', 10*log10(P(4,:))', 10*log10(P(5,:))', 10*log10(P(6,:))', 10*log10(P(7,:))', 10*log10(P(8,:))', 10*log10(P(9,:))'];
+
+save C2F6_PI_GI_vs_FFTLength.dat daten -ascii;

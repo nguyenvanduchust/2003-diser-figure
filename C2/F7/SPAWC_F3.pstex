@@ -1,0 +1,432 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: SPAWC_F3.pstex
+%%Creator: fig2dev Version 3.2 Patchlevel 3d
+%%CreationDate: Fri Jun  6 11:07:28 2003
+%%For: nguyen@at129 (Van Duc Nguyen)
+%%BoundingBox: 0 0 322 324
+%%Magnification: 1.0000
+%%EndComments
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+save
+newpath 0 324 moveto 0 0 lineto 322 0 lineto 322 324 lineto closepath clip newpath
+-101.4 380.7 translate
+1 -1 scale
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+
+$F2psBegin
+10 setmiterlimit
+ 0.06299 0.06299 sc
+%
+% Fig objects follow
+%
+% Polyline
+%
+% pen to black in case this eps object doesn't set color first
+0 0 0 setrgbcolor
+% Begin Imported EPS File: SPAWC_F1_Zoomed.eps
+%%BeginDocument: SPAWC_F1_Zoomed.eps
+%
+n gs
+1816 900 tr
+10.103093 -13.034574 sc
+0 -376 tr
+-64 -213 tr
+sa
+n 64 213 m 549 213 l 549 589 l 64 589 l cp clip n
+countdictstack
+mark
+/showpage {} def
+% EPS file follows:
+%!PS-Adobe-2.0 EPSF-1.2
+%%Creator: MATLAB, The Mathworks, Inc.
+%%Title: SPAWC_F1_Zoomed.eps
+%%CreationDate: 03/20/2003  16:06:35
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%Extensions: CMYK
+%%Pages: 1
+%%BoundingBox:    64   213   549   589
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s /show ldef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile exch readhexstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    64   213   549   589
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0216 7344 csm
+
+  561   274  5814  4513 MR c np
+91 dict begin %Colortable dictionary
+/c0 { 0 0 0 sr} bdef
+/c1 { 1 1 1 sr} bdef
+/c2 { 1 0 0 sr} bdef
+/c3 { 0 1 0 sr} bdef
+/c4 { 0 0 1 sr} bdef
+/c5 { 1 1 0 sr} bdef
+/c6 { 1 0 1 sr} bdef
+/c7 { 0 1 1 sr} bdef
+c0
+1 j
+1 sg
+   0    0 6917 5185 PR
+6 w
+0 4225 5360 0 0 -4225 899 4614 4 MP
+PP
+-5360 0 0 4225 5360 0 0 -4225 899 4614 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+ 899 4614 mt 6259 4614 L
+ 899  389 mt 6259  389 L
+ 899 4614 mt  899  389 L
+6259 4614 mt 6259  389 L
+ 899 4614 mt 6259 4614 L
+ 899 4614 mt  899  389 L
+ 899 4614 mt  899 4560 L
+ 899  389 mt  899  442 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+ 866 4759 mt 
+(9) s
+6259 4614 mt 6259 4560 L
+6259  389 mt 6259  442 L
+6193 4759 mt 
+(10) s
+ 899 4614 mt  952 4614 L
+6259 4614 mt 6205 4614 L
+ 661 4658 mt 
+(-21) s
+ 899 4191 mt  952 4191 L
+6259 4191 mt 6205 4191 L
+ 561 4235 mt 
+(-20.8) s
+ 899 3769 mt  952 3769 L
+6259 3769 mt 6205 3769 L
+ 561 3813 mt 
+(-20.6) s
+ 899 3346 mt  952 3346 L
+6259 3346 mt 6205 3346 L
+ 561 3390 mt 
+(-20.4) s
+ 899 2923 mt  952 2923 L
+6259 2923 mt 6205 2923 L
+ 561 2967 mt 
+(-20.2) s
+ 899 2501 mt  952 2501 L
+6259 2501 mt 6205 2501 L
+ 661 2545 mt 
+(-20) s
+ 899 2079 mt  952 2079 L
+6259 2079 mt 6205 2079 L
+ 561 2123 mt 
+(-19.8) s
+ 899 1656 mt  952 1656 L
+6259 1656 mt 6205 1656 L
+ 561 1700 mt 
+(-19.6) s
+ 899 1233 mt  952 1233 L
+6259 1233 mt 6205 1233 L
+ 561 1277 mt 
+(-19.4) s
+ 899  811 mt  952  811 L
+6259  811 mt 6205  811 L
+ 561  855 mt 
+(-19.2) s
+ 899  389 mt  952  389 L
+6259  389 mt 6205  389 L
+ 661  433 mt 
+(-19) s
+ 899 4614 mt 6259 4614 L
+ 899  389 mt 6259  389 L
+ 899 4614 mt  899  389 L
+6259 4614 mt 6259  389 L
+gs 899 389 5361 4226 MR c np
+122 -152 124 -150 126 -148 128 -145 130 -142 132 -140 134 -136 137 -132 
+139 -128 142 -124 145 -119 147 -114 150 -109 153 -103 157 -97 159 -90 
+163 -83 166 -76 170 -67 174 -59 178 -49 182 -40 186 -30 191 -19 
+196 -7 201 4 206 18 212 30 218 45 224 59 231 74 237 91 
+899 3193 33 MP stroke
+/c8 { 1.000000 0.000000 0.000000 sr} bdef
+c8
+122 -152 124 -150 126 -148 128 -145 130 -142 132 -139 134 -136 137 -133 
+139 -128 142 -124 145 -119 147 -115 150 -109 153 -103 157 -97 159 -91 
+163 -83 166 -76 170 -67 174 -59 178 -50 182 -41 186 -30 191 -19 
+196 -8 201 4 206 17 212 30 218 44 224 58 231 74 237 90 
+899 3178 33 MP stroke
+gr
+
+c8
+
+end
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
+
+cleartomark
+countdictstack exch sub { end } repeat
+restore grestore
+%
+% End Imported PIC File: SPAWC_F1_Zoomed.eps
+%%EndDocument
+%
+% Polyline
+7.500 slw
+gs  clippath
+2830 4430 m 2772 4401 l 2700 4546 l 2788 4444 l 2759 4575 l cp
+eoclip
+n 2650 4723 m
+ 2795 4429 l gs col0 s gr gr
+
+% arrowhead
+n 2759 4575 m 2788 4444 l 2700 4546 l 2759 4575 l  cp gs 0.00 setgray ef gr  col0 s
+% Polyline
+gs  clippath
+3302 4298 m 3367 4298 l 3367 4136 l 3335 4267 l 3302 4136 l cp
+eoclip
+n 3335 3203 m
+ 3335 4283 l gs col0 s gr gr
+
+% arrowhead
+n 3302 4136 m 3335 4267 l 3367 4136 l 3302 4136 l  cp gs 0.00 setgray ef gr  col0 s
+/Times-Roman ff 210.00 scf sf
+1767 4332 m
+gs 1 -1 sc  90.0 rot (Interference power in dB) col0 sh gr
+/Times-Roman ff 195.00 scf sf
+2698 3058 m
+gs 1 -1 sc (4\) Sum of \(1\) and \(2\)) col0 sh gr
+$F2psEnd
+rs

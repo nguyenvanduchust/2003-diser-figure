@@ -1,0 +1,32 @@
+%****************************************************************************
+% Chpater 2 Figure 4 
+%****************************************************************************
+
+clear;
+
+load P_ISI.am -ascii;
+
+load P_ICI2.am -ascii;
+
+load PI.am -ascii;
+
+
+index = 4:12;
+plot(index,10*log10(P_ISI(:,1)),'bx-');
+hold on;
+
+
+plot(index,10*log10(P_ICI2(:,1)),'r+-');
+
+plot(index,10*log10(PI(:,1)),'ko-');
+
+
+ylabel('Interference power in dB','FontSize',12);
+xlabel('log_2(N_{FFT})','FontSize',12);
+legend('ISI power','ICI-CIG power','Total interference power ');
+grid on;
+
+hold off;
+
+
+
